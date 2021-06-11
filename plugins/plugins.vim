@@ -13,7 +13,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'christoomey/vim-tmux-navigator'
 
 "NERDTREE
-Plug 'preservim/nerdtree'
+Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 
 "More Highlighting
