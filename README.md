@@ -1,5 +1,14 @@
 ## Neovim Linux
+ sudo add-apt-repository ppa:neovim-ppa/unstable 
+ sudo apt-get update
+ sudo apt-get install neovim
+ sudo apt-get install Ripgrep
 
-Toda la explicación se encuentra en mi canal de youtube. [Joaquin Varela ](https://www.youtube.com/channel/UCw1Ipy5_P1OL0zUJMfYC7-A)
 
-Tengo varios videos con explicaciones de instalacion y configuracion.
+* Ir ~/.config
+* git clone git@github.com:vorteg/nvim-linux.git
+* mv nvim-linux nvim
+* vi nvim/init.vim
+* :PlugInstall
+
+*y listo ya esta configurado
