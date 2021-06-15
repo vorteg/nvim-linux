@@ -22,6 +22,8 @@ set laststatus=2
 set backspace=2
 set guioptions-=T
 set guioptions-=L
+set splitbelow
+set splitright
 "Get out of insert mode 
 "Salir de modo insertar
 imap jk <Esc>
@@ -59,6 +61,13 @@ let g:indentLine_char = '▏'
 "abrir Nerdtree
 "open nerdtree
 nmap <Leader>e :NERDTreeToggle<CR>
+let NERDTreeMapOpenInTab='<ENTER>'
+
+"terminal setup
+vnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
+nnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
+imap <c-,> <c-\ , c-n> 
+
 
 "open cocExplorer 
 "Buscar dos carácteres con easymotion
